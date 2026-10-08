@@ -4,6 +4,8 @@ NIM     : 264107020028
 Kelas   : TI-1H
 
 ==========================================================
+
+
 Hasil Uji Studi Kasus 2 oleh <M. Amrizal Nuril Abdi>
 | No | Jenis | Dokumen | Juara/Dana | Output | Sesuai? |
 |----|-------|---------|------------|---------|---------|
