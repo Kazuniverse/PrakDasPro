@@ -18,10 +18,16 @@ public class StudiKasus2_16 {
         System.out.print("Peringkat Mahasiswa (0 jika bukan 1-3)    : ");
         peringkatJuara = in.nextInt();
 
-        if (jumlahDokumen >= 0 && jumlahDokumen <= 4) {
+        if (jumlahDokumen == 4) {
             if (peringkatJuara > 0 && peringkatJuara <= 3) {
                 if (cabangLomba.equals("BELMAWA") || cabangLomba.equals("BAKORMA") || cabangLomba.equals("Mandiri")) {
 
+                    System.out.println("Nama Mahasiswa  : " + namaMahasiswa);
+                    System.out.println("Jenis Kegiatan  : " + cabangLomba);
+                    System.out.println("Jumlah Dokumen  : " + jumlahDokumen);
+                    System.out.println("Peringkat Juara : " + peringkatJuara);
+                    System.out.println("Status          : Lolos pemberian dana penghargaan");
+                } else if (cabangLomba.equalsIgnoreCase("PKM")) {
                     System.out.println("Nama Mahasiswa  : " + namaMahasiswa);
                     System.out.println("Jenis Kegiatan  : " + cabangLomba);
                     System.out.println("Jumlah Dokumen  : " + jumlahDokumen);
@@ -32,7 +38,7 @@ public class StudiKasus2_16 {
                     System.out.println("Jenis Kegiatan  : " + cabangLomba);
                     System.out.println("Jumlah Dokumen  : " + jumlahDokumen);
                     System.out.println("Peringkat Juara : " + peringkatJuara);
-                    System.out.println("Status          : Lolos pemberian dana penghargaan");
+                    System.out.println("Status          : Tidak ada dana penghargaan");
                 }
             } else if (cabangLomba.equalsIgnoreCase("PKM")) {
                 System.out.print("Lolos Penadaan    : ");
